@@ -4,8 +4,9 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
-            "name": "(Windows) Launch",
+                      "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "輸入程式名稱，例如 ${workspaceFolder}/a.exe",
@@ -36,17 +37,5 @@
             ]
         },
         
-
-        {
-            "name": "(Windows) Launch",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "輸入程式名稱，例如 ${workspaceFolder}/a.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false
-        }
     ]
 }
